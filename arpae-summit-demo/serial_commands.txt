@@ -1,0 +1,12 @@
+SERIAL COMMANDS
+"zenith <abs deg>" : sets zenith angle and moves rotational stage (90deg on the zaber stage is 0deg)
+"xoffset <delta mm>": set the center x position. offsets from starting point and moves there
+"yoffset <delta mm>": set the center y position. offsets from starting point and moves there
+"origin" : moves stages to origin, should be used prior to setting xoffset and yoffset
+"start" : starts moving the x-axis and zenith angle between +/- 60 deg
+"stop" : stops the movement
+
+
+<abs unit>: floating point number of the absolute postion in unit units
+<delta unit>: floating point number of the relative position in unit units
+
